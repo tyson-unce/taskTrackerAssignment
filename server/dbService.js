@@ -18,6 +18,7 @@ connection.connect((err) => {
     if (err) {
         console.log(err.message);
     }
+    console.log('AWS is LIT')
 });
 
 

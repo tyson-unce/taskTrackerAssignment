@@ -1,7 +1,12 @@
+body{
+  background-color: white;
+}
+
 main {
     width: 50%;
     margin: auto;
     text-align: center;
+    padding-left: 40%;
 }
 
 table{
