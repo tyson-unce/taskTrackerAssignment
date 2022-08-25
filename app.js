@@ -72,4 +72,4 @@ app.delete('/delete/:id', (request, response) => {
 });
 
 //LISTENING FOR THE START OF OUR PORT, CONSOLE LOGGING UPON ACTION
-app.listen(process.env.PORT, () => console.log('app is running'));
+app.listen(process.env.PORT || 8080, () => console.log('app is running'));
