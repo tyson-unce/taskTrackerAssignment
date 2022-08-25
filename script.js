@@ -74,7 +74,7 @@ addBtn.onclick = function () {
 	nameInput.value = '';
 
 	//SENDING THIS INFORMATION TO THE BACKEND
-	fetch('https://tasktrackertyson.herokuapp.com/nsert', {
+	fetch('https://tasktrackertyson.herokuapp.com/insert', {
 		headers: {
 			'Content-type': 'application/json',
 		},
